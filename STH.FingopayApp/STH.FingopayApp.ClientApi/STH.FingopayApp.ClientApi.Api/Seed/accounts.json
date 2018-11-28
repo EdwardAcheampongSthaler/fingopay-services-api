@@ -1,0 +1,13 @@
+[
+  {
+    "Id": "B9D2CE05-D710-4B09-8C77-6174FC2E615B",
+    "Created": "1/1/2018",
+    "Modified": "1/1/2018",
+    "Name": "Fingopay Global",
+    "Email": "apincore@anasoft.net",
+    "Description": "Global",
+    "IsTrial": false,
+    "IsActive": true,
+    "SetActive": "1/1/2018"
+  }
+]

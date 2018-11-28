@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28306.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STH.FingopayApp.Web", "STH.FingopayApp.Web\STH.FingopayApp.Web.csproj", "{78C93DCB-9E92-4CE5-868D-8C75344DE4A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STH.FingopayApp.ReactWeb", "STH.FingopayApp.ReactWeb\STH.FingopayApp.ReactWeb.csproj", "{EA265F45-2A94-45A0-81B7-9A5CAB685C2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STH.FingopayApp.ClientApi.Api", "STH.FingopayApp.ClientApi\STH.FingopayApp.ClientApi.Api\STH.FingopayApp.ClientApi.Api.csproj", "{392B35DF-16BC-466B-895A-F4E5E8948824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STH.FingopayApp.ClientApi.Domain", "STH.FingopayApp.ClientApi\STH.FingopayApp.ClientApi.Domain\STH.FingopayApp.ClientApi.Domain.csproj", "{8D676A94-3300-42EB-A71F-EC270C9F386C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STH.FingopayApp.ClientApi.Entity", "STH.FingopayApp.ClientApi\STH.FingopayApp.ClientApi.Entity\STH.FingopayApp.ClientApi.Entity.csproj", "{080B7959-C234-4C9B-AB1C-FB391FC1AF0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78C93DCB-9E92-4CE5-868D-8C75344DE4A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C93DCB-9E92-4CE5-868D-8C75344DE4A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C93DCB-9E92-4CE5-868D-8C75344DE4A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C93DCB-9E92-4CE5-868D-8C75344DE4A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA265F45-2A94-45A0-81B7-9A5CAB685C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA265F45-2A94-45A0-81B7-9A5CAB685C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA265F45-2A94-45A0-81B7-9A5CAB685C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA265F45-2A94-45A0-81B7-9A5CAB685C2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{392B35DF-16BC-466B-895A-F4E5E8948824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{392B35DF-16BC-466B-895A-F4E5E8948824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{392B35DF-16BC-466B-895A-F4E5E8948824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{392B35DF-16BC-466B-895A-F4E5E8948824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D676A94-3300-42EB-A71F-EC270C9F386C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D676A94-3300-42EB-A71F-EC270C9F386C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D676A94-3300-42EB-A71F-EC270C9F386C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D676A94-3300-42EB-A71F-EC270C9F386C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{080B7959-C234-4C9B-AB1C-FB391FC1AF0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{080B7959-C234-4C9B-AB1C-FB391FC1AF0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{080B7959-C234-4C9B-AB1C-FB391FC1AF0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{080B7959-C234-4C9B-AB1C-FB391FC1AF0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDC50E0F-C65B-471B-B12C-AFF03BA49722}
+	EndGlobalSection
+EndGlobal

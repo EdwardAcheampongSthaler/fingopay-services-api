@@ -1,0 +1,162 @@
+===> 2018-11-26 17:45:06.057 +00:00 [Information] Starting web host
+===> 2018-11-26 17:45:06.178 +00:00 [Debug] Hosting starting
+===> 2018-11-26 17:45:06.265 +00:00 [Information] User profile is available. Using '"C:\Users\Ed\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2018-11-26 17:45:06.285 +00:00 [Debug] Reading data from file '"C:\Users\Ed\AppData\Local\ASP.NET\DataProtection-Keys\key-70e4fe24-5749-4e27-95df-55d3380ff841.xml"'.
+===> 2018-11-26 17:45:06.309 +00:00 [Debug] Found key {70e4fe24-5749-4e27-95df-55d3380ff841}.
+===> 2018-11-26 17:45:06.321 +00:00 [Debug] Considering key {70e4fe24-5749-4e27-95df-55d3380ff841} with expiration date 2019-02-16 12:46:42Z as default key.
+===> 2018-11-26 17:45:06.338 +00:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2018-11-26 17:45:06.341 +00:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2018-11-26 17:45:06.343 +00:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2018-11-26 17:45:06.350 +00:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2018-11-26 17:45:06.356 +00:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2018-11-26 17:45:06.365 +00:00 [Debug] Using key {70e4fe24-5749-4e27-95df-55d3380ff841} as the default key.
+===> 2018-11-26 17:45:06.367 +00:00 [Debug] Key ring with default key {70e4fe24-5749-4e27-95df-55d3380ff841} was loaded during application startup.
+===> 2018-11-26 17:45:06.394 +00:00 [Debug] Compatibility switch "AllowInputFormatterExceptionMessages" in type "MvcJsonOptions" is using default value False
+===> 2018-11-26 17:45:06.423 +00:00 [Debug] Compatibility switch "AllowCombiningAuthorizeFilters" in type "MvcOptions" is using default value False
+===> 2018-11-26 17:45:06.423 +00:00 [Debug] Compatibility switch "AllowBindingHeaderValuesToNonStringModelTypes" in type "MvcOptions" is using default value False
+===> 2018-11-26 17:45:06.423 +00:00 [Debug] Compatibility switch "AllowValidatingTopLevelNodes" in type "MvcOptions" is using default value False
+===> 2018-11-26 17:45:06.423 +00:00 [Debug] Compatibility switch "InputFormatterExceptionPolicy" in type "MvcOptions" is using default value AllExceptions
+===> 2018-11-26 17:45:06.424 +00:00 [Debug] Compatibility switch "SuppressBindingUndefinedValueToEnumType" in type "MvcOptions" is using default value False
+===> 2018-11-26 17:45:06.444 +00:00 [Debug] Compatibility switch "AllowAreas" in type "RazorPagesOptions" is using default value False
+===> 2018-11-26 17:45:06.444 +00:00 [Debug] Compatibility switch "AllowMappingHeadRequestsToGetHandler" in type "RazorPagesOptions" is using default value False
+===> 2018-11-26 17:45:06.496 +00:00 [Debug] Compatibility switch "SuppressTempDataAttributePrefix" in type "MvcViewOptions" is using default value False
+===> 2018-11-26 17:45:06.552 +00:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+===> 2018-11-26 17:45:06.761 +00:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2018-11-26 17:45:07.683 +00:00 [Information] Entity Framework Core "2.1.0-rtm-30799" initialized '"ClientApiContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+===> 2018-11-26 17:45:07.738 +00:00 [Debug] Opening connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.015 +00:00 [Debug] Opened connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.019 +00:00 [Debug] Closing connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.031 +00:00 [Debug] Closed connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.052 +00:00 [Debug] Opening connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.055 +00:00 [Debug] Opened connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.063 +00:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2018-11-26 17:45:08.138 +00:00 [Information] Executed DbCommand ("78"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2018-11-26 17:45:08.139 +00:00 [Debug] Closing connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.140 +00:00 [Debug] Closed connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.152 +00:00 [Debug] Opening connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.152 +00:00 [Debug] Opened connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.153 +00:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2018-11-26 17:45:08.161 +00:00 [Information] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2018-11-26 17:45:08.162 +00:00 [Debug] Closing connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.162 +00:00 [Debug] Closed connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.163 +00:00 [Debug] A data reader was disposed.
+===> 2018-11-26 17:45:08.177 +00:00 [Debug] Migrating using database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.177 +00:00 [Debug] Opening connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.177 +00:00 [Debug] Opened connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.177 +00:00 [Debug] Closing connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.177 +00:00 [Debug] Closed connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.178 +00:00 [Debug] Opening connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.178 +00:00 [Debug] Opened connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.178 +00:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2018-11-26 17:45:08.178 +00:00 [Information] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2018-11-26 17:45:08.178 +00:00 [Debug] Closing connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.178 +00:00 [Debug] Closed connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.178 +00:00 [Debug] Opening connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.179 +00:00 [Debug] Opened connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.179 +00:00 [Debug] Closing connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.179 +00:00 [Debug] Closed connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.179 +00:00 [Debug] Opening connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.179 +00:00 [Debug] Opened connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.179 +00:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2018-11-26 17:45:08.180 +00:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2018-11-26 17:45:08.180 +00:00 [Debug] Closing connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.180 +00:00 [Debug] Closed connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.181 +00:00 [Debug] Opening connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.181 +00:00 [Debug] Opened connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.181 +00:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2018-11-26 17:45:08.181 +00:00 [Information] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2018-11-26 17:45:08.181 +00:00 [Debug] Closing connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.181 +00:00 [Debug] Closed connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.181 +00:00 [Debug] A data reader was disposed.
+===> 2018-11-26 17:45:08.193 +00:00 [Information] Applying migration '"20180708205028_InitialCreate"'.
+===> 2018-11-26 17:45:08.253 +00:00 [Debug] Opening connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.254 +00:00 [Debug] Opened connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.268 +00:00 [Debug] Beginning transaction with isolation level '"ReadCommitted"'.
+===> 2018-11-26 17:45:08.269 +00:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Accounts] (
+    [Id] uniqueidentifier NOT NULL IDENTITY,
+    [Created] datetime2 NOT NULL,
+    [Modified] datetime2 NOT NULL,
+    [Name] nvarchar(50) NOT NULL,
+    [Email] nvarchar(255) NOT NULL,
+    [Description] nvarchar(255) NULL,
+    [IsTrial] bit NOT NULL,
+    [IsActive] bit NOT NULL,
+    [SetActive] datetime2 NOT NULL,
+    CONSTRAINT [PK_Accounts] PRIMARY KEY ([Id])
+);"
+===> 2018-11-26 17:45:08.291 +00:00 [Error] Failed executing DbCommand ("20"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Accounts] (
+    [Id] uniqueidentifier NOT NULL IDENTITY,
+    [Created] datetime2 NOT NULL,
+    [Modified] datetime2 NOT NULL,
+    [Name] nvarchar(50) NOT NULL,
+    [Email] nvarchar(255) NOT NULL,
+    [Description] nvarchar(255) NULL,
+    [IsTrial] bit NOT NULL,
+    [IsActive] bit NOT NULL,
+    [SetActive] datetime2 NOT NULL,
+    CONSTRAINT [PK_Accounts] PRIMARY KEY ([Id])
+);"
+System.Data.SqlClient.SqlException (0x80131904): Identity column 'Id' must be of data type int, bigint, smallint, tinyint, or decimal or numeric with a scale of 0, unencrypted, and constrained to be nonnullable.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+ClientConnectionId:8634a2e4-792d-493a-8c7a-dae78703d39c
+Error Number:2749,State:2,Class:16
+===> 2018-11-26 17:45:08.345 +00:00 [Debug] Disposing transaction.
+===> 2018-11-26 17:45:08.346 +00:00 [Debug] Closing connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.346 +00:00 [Debug] Closed connection to database '"STH.FingopayApp.ClientApi"' on server '".\SQLEXPRESS"'.
+===> 2018-11-26 17:45:08.348 +00:00 [Debug] '"ClientApiContext"' disposed.
+===> 2018-11-26 17:45:08.361 +00:00 [Fatal] Application startup exception
+System.Data.SqlClient.SqlException (0x80131904): Identity column 'Id' must be of data type int, bigint, smallint, tinyint, or decimal or numeric with a scale of 0, unencrypted, and constrained to be nonnullable.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteNonQuery(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQuery(IEnumerable`1 migrationCommands, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at STH.FingopayApp.ClientApi.Api.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env) in C:\Projects\sthaler\sthalerv3\fingopay-services-api\STH.FingopayApp\STH.FingopayApp.ClientApi\STH.FingopayApp.ClientApi.Api\Startup.cs:line 157
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+ClientConnectionId:8634a2e4-792d-493a-8c7a-dae78703d39c
+Error Number:2749,State:2,Class:16
+===> 2018-11-26 17:45:08.383 +00:00 [Debug] Failed to locate the development https certificate at 'null'.
+===> 2018-11-26 17:45:08.432 +00:00 [Debug] Hosting started
+===> 2018-11-26 17:45:08.432 +00:00 [Debug] Loaded hosting startup assembly "STH.FingopayApp.ClientApi.Api"
+===> 2018-11-26 17:45:08.432 +00:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+===> 2018-11-26 17:45:08.537 +00:00 [Debug] Connection id ""0HLIJORK4KAIC"" started.
+===> 2018-11-26 17:45:08.700 +00:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/info  
+===> 2018-11-26 17:45:08.839 +00:00 [Debug] Connection id ""0HLIJORK4KAIC"" reset.
+===> 2018-11-26 17:45:08.843 +00:00 [Debug] Connection id ""0HLIJORK4KAIC"" completed keep alive response.
+===> 2018-11-26 17:45:08.845 +00:00 [Debug] Connection id ""0HLIJORK4KAIC"" sending FIN.
+===> 2018-11-26 17:45:08.847 +00:00 [Debug] Connection id ""0HLIJORK4KAIC"" disconnecting.
+===> 2018-11-26 17:45:08.851 +00:00 [Information] Request finished in 156.4902ms 500 text/html; charset=utf-8
+===> 2018-11-26 17:45:08.857 +00:00 [Debug] Connection id ""0HLIJORK4KAIC"" stopped.
