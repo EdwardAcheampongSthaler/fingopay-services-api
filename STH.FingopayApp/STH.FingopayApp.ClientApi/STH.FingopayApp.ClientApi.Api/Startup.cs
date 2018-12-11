@@ -40,7 +40,6 @@ using Swashbuckle.AspNetCore.Swagger;
 /// NOTE:
 /// Must update database connection in appsettings.json - "STH.FingopayApp.ClientApi.ApiDB"
 /// </summary>
-
 namespace STH.FingopayApp.ClientApi.Api
 {
     public class Startup

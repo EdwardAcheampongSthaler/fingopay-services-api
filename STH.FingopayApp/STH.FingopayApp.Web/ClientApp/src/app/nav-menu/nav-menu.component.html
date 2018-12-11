@@ -7,7 +7,7 @@
                 <span class='icon-bar'></span>
                 <span class='icon-bar'></span>
             </button>
-            <a class='navbar-brand' [routerLink]='["/"]'>STH.FingopayApp.Web</a>
+            <a class='navbar-brand' [routerLink]='["/"]'>Fingopay</a>
         </div>
         <div class='clearfix'></div>
         <div class='navbar-collapse collapse' [ngClass]='{ "in": isExpanded }'>
@@ -27,6 +27,12 @@
                         <span class='glyphicon glyphicon-th-list'></span> Fetch data
                     </a>
                 </li>
+                <li [routerLinkActive]='["link-active"]'>
+                    <a [routerLink]='["/account"]' (click)='collapse()'>
+                        <span class='glyphicon glyphicon-th-list'></span> Account
+                    </a>
+                </li>
+
             </ul>
         </div>
     </div>

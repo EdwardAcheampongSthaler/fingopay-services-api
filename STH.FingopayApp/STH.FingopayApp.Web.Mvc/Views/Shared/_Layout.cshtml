@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Fingopay</title>
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    </environment>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Fingopay</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Help">Help</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                </ul>
+                <partial name="_LoginPartial" />
+            </div>
+        </div>
+    </nav>
+
+    <partial name="_CookieConsentPartial" />
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <div class="row">
+
+
+                <div class="col span_6">
+                    <!-- Footer widget area 1 -->
+                    <div id="text-2" class="widget widget_text">
+                        <div class="textwidget">
+                            <h2 class="white-align-center">KEEP IN THE LOOP</h2>
+                        </div>
+                    </div><div id="custom_html-2" class="widget_text widget widget_custom_html">
+                        <div class="textwidget custom-html-widget">
+                            <div class="textwidget">
+                                <div class="aligncenter">
+                                    <a target="_blank" href="https://twitter.com/FingoPay"><i class="fa fa-twitter"></i></a><a target="_blank" href="https://www.facebook.com/Fingopay"><i class="fa fa-facebook"></i> </a><a target="_blank" href="https://www.linkedin.com/company/sthaler"><i class="fa fa-linkedin"></i></a><a target="_blank" href="https://www.youtube.com/channel/UCLlXAT3neOg6U8WBwfNErNg"><i class="fa fa-youtube-play"></i> </a><a target="_blank" href="https://plus.google.com/109921317770178857487"><i class="fa fa-google-plus"></i> </a><a target="_blank" href="https://www.instagram.com/fingopay/?hl=en"><i class="fa fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div id="text-3" class="widget widget_text">
+                        <div class="textwidget">
+                            <p><a href="https://fingopay.com/contact/"><img class="aligncenter size-full wp-image-63" src="data:image/webp;base64,UklGRkoBAABXRUJQVlA4TD4BAAAvagAKEH8gFkzmL92ZwvzP/0QkdBxA1bZ9ffL+9TffMt69+xmwjp2A/RpRO/8dimUcmjV3d5f5PuT3F/i3pYj+M3DbSJGX4RjfAJfCM7kS8OxOvfxokwbxp5DWwAcc4CPIMMudU2z3walXD+aDLkiriHpwRQzprSd9njbAS2PACtXP04aFFLXayEoA+EB0GunKWCfSCtJamnUZdavW2Uxk30bu17EP11JaaRlDWsEojn3xID4VKy1jmJIceGf40H4Y4nEdB459dt37DE4aHxo+mAmSRIEXWzzf42SKTXYgW2efP7oB5BUHKxK6TVrGcByIBzElCd4YYjW8Ex+6/d2lC4sJPvXIbCQf6DIi+/jUAcSGkWZ1s7iVbe/kHuCKmCh+hIunzSBWqALxIwC4okEgRb2w8q+hjMWtfw+XAgA=" alt="" data-pagespeed-url-hash="3519042424" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a></p>
+                        </div>
+                    </div><div id="custom_html-3" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><p class="aligncenter"><a href="https://fingopay.com/cbs-data-privacy-policy/">Privacy Policy  |  </a>     <a href="https://fingopay.com/cbs-terms-conditions/">Terms and Conditions  |  </a>     <a href="https://fingopay.com/cookie-policy/">Cookie Policy  |  </a>     <a href="https://fingopay.com/faq/">FAQs    </a>       <a href="https://fingopay.com/sthaler/"> | Sthaler</a><a href="https://sthaler.fairhire.careers"> | Careers</a></p></div></div><div id="text-6" class="widget widget_text">
+                        <div class="textwidget">
+                            <p><img class="aligncenter size-full wp-image-64" src="data:image/webp;base64,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" alt="" data-pagespeed-url-hash="1571792667" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></p>
+                        </div>
+                    </div>
+                </div><!--/span_3-->
+
+
+                <div class="col span_6 col_last">
+                    <!-- Footer widget area 2 -->
+
+                    <div class="widget">
+
+                    </div>
+
+                </div><!--/span_3-->
+
+
+
+
+
+            </div>
+            <p>&copy; 2018 - Fingopay&trade; - Sthaler</p>
+        </footer>
+    </div>
+
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+        </script>
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

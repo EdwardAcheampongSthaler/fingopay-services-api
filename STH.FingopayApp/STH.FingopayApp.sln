@@ -7,11 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STH.FingopayApp.Web", "STH.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STH.FingopayApp.ReactWeb", "STH.FingopayApp.ReactWeb\STH.FingopayApp.ReactWeb.csproj", "{EA265F45-2A94-45A0-81B7-9A5CAB685C2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STH.FingopayApp.ClientApi.Api", "STH.FingopayApp.ClientApi\STH.FingopayApp.ClientApi.Api\STH.FingopayApp.ClientApi.Api.csproj", "{392B35DF-16BC-466B-895A-F4E5E8948824}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STH.FingopayApp.ClientApi.Api", "STH.FingopayApp.ClientApi\STH.FingopayApp.ClientApi.Api\STH.FingopayApp.ClientApi.Api.csproj", "{392B35DF-16BC-466B-895A-F4E5E8948824}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STH.FingopayApp.ClientApi.Domain", "STH.FingopayApp.ClientApi\STH.FingopayApp.ClientApi.Domain\STH.FingopayApp.ClientApi.Domain.csproj", "{8D676A94-3300-42EB-A71F-EC270C9F386C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STH.FingopayApp.ClientApi.Domain", "STH.FingopayApp.ClientApi\STH.FingopayApp.ClientApi.Domain\STH.FingopayApp.ClientApi.Domain.csproj", "{8D676A94-3300-42EB-A71F-EC270C9F386C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STH.FingopayApp.ClientApi.Entity", "STH.FingopayApp.ClientApi\STH.FingopayApp.ClientApi.Entity\STH.FingopayApp.ClientApi.Entity.csproj", "{080B7959-C234-4C9B-AB1C-FB391FC1AF0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STH.FingopayApp.ClientApi.Entity", "STH.FingopayApp.ClientApi\STH.FingopayApp.ClientApi.Entity\STH.FingopayApp.ClientApi.Entity.csproj", "{080B7959-C234-4C9B-AB1C-FB391FC1AF0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E2A5A1E8-18DC-4CC6-9936-395BC3667D5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STH.FingopayApp.Web.Mvc", "STH.FingopayApp.Web.Mvc\STH.FingopayApp.Web.Mvc.csproj", "{9D2296B3-C991-4B45-BEA9-A87BDE7BA679}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,10 @@ Global
 		{080B7959-C234-4C9B-AB1C-FB391FC1AF0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{080B7959-C234-4C9B-AB1C-FB391FC1AF0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{080B7959-C234-4C9B-AB1C-FB391FC1AF0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D2296B3-C991-4B45-BEA9-A87BDE7BA679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D2296B3-C991-4B45-BEA9-A87BDE7BA679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D2296B3-C991-4B45-BEA9-A87BDE7BA679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D2296B3-C991-4B45-BEA9-A87BDE7BA679}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
