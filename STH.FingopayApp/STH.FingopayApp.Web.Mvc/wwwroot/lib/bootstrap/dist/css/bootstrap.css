@@ -6516,6 +6516,12 @@ button.close {
   margin-right: auto;
   margin-left: auto;
 }
+.steps img {
+    width: 230px;
+    top: 50%;
+    left: 50%;
+    position: relative;
+}
 .pull-right {
   float: right !important;
 }
